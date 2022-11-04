@@ -1,6 +1,6 @@
 ### Web calculator app
 
-Task
+<b>Task</b>
 Create an app to execute the functions of a calculator on a Web Browser.
 
 ##Criteira
