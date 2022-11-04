@@ -3,7 +3,7 @@
 <b>Task</b><br>
 Create an app to execute the functions of a calculator on a Web Browser.
 
-<b>Criteira</b>
+<b>Criteria</b>
 <ul>
   <li>Add all the features of a calculator</li>
   <li>The layout configuration does not need to be configured, the main point is to make the software functional</li>
