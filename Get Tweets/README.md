@@ -17,7 +17,7 @@ Execute the application to get the tweets in a file.
 
 <b>Run locally</b><br>
 <ol>
-  <li>Download both files and save them on a folder</li>
+  <li>Download both .ini and .py files and save them on a folder</li>
   <li>Add your API keys and token ids to the ConfigKeys.ini file</li>
   <li>Execute the .py file</li>
 </ol>
