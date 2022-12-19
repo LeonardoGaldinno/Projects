@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaSena Winner</title>
+</head>
+
+<body>
+    <h1 id="header" class="text-bg-light p-3">Lucky Numbers</h1>
+    
+    <div id="whole-structure">
+        <div output class='output' id="container">
+            <div>
+                <label>Number of Games</label>
+                <input type="text" id="combination-number" type="text"/><br><br>
+            </div>
+            <div id="div-buttons">
+                <button id="create-numbers" type="button" class="btn btn-primary">Play</button>
+                <button id="clear-numbers" type="button" class="btn btn-secondary">Clear</button>
+            </div>    
+        </div>
+    </div>
+    <hr>
+    
+
+    <div id="container2">
+        <div>
+            <div show-results class='show-results' id='main'>
+                <ul id="mainList">
+                </ul>
+            </div>
+            <div show-results class='show-results2' id='main2'>
+                <ul id="mainList2">
+                </ul>
+            </div>
+            <div show-results class='show-results3' id='main3'>
+                <ul id="mainList3">
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script src="app.js"></script>
+
+<link rel="stylesheet" href="style.css">
+<!-- CSS only -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+rel="stylesheet" 
+integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+crossorigin="anonymous">
+
+</html>
