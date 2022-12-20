@@ -1,0 +1,17 @@
+<!--The csrf_token will be sent on every form submit. 
+            When we are doing POST request in Django we need to pass in this token. 
+            This is to ensure that there is no malicious attemtps from cross site forgery attacks-->
+
+
+{% extends 'main.html' %}
+
+{% block content %}
+<div>
+    <form method='POST' action="">
+        {% csrf_token %}
+        {{form.as_p}} <!--Passing the form with the shortcut as_p to organize the fields in the page-->
+
+        <input = type="submit" value="Submit" /> 
+    </form>
+</div>
+{% endblock content %}
